@@ -1,0 +1,15 @@
+# Screen capture tests
+# Note: flutter driver expects a pair of files eg, main.dart and main_test.dart
+tests:
+  - test_driver/app.dart
+
+# Interim location of screenshots from tests before processing
+staging: /Users/builder/exported_artefacts
+
+devices:
+  ios:
+    iPhone XS Max:
+      frame: false
+      orientation: Portrait
+
+archive: /Users/builder/exported_artefacts
